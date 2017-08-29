@@ -30,15 +30,15 @@ function draw() {
     // textAlign(CENTER);
     
     Q1grade = Q1.value();
-    text("Quarter 1 Grade (40%): " + Q1grade, Q1.x * 2, 150);
+    text("Quarter 1 Grade (40%): " + Q1grade, Q1.x * 3, 150);
     
     Q2grade = Q2.value();
-    text("Quarter 2 Grade (40%): " + Q2grade, Q2.x * 2, 200);
+    text("Quarter 2 Grade (40%): " + Q2grade, Q2.x * 3, 200);
     
     finalgrade = final.value();
-    text("Final Exam Grade (20%): " + finalgrade, final.x * 2, 250);
+    text("Final Exam Grade (20%): " + finalgrade, final.x * 3, 250);
     
     var average = ((Q1grade*0.40 + Q2grade*0.40 + finalgrade*0.20));
-    text("Semester Average: " + average.toFixed(2), final.x * 2, 300)
+    text("Semester Average: " + average.toFixed(2), final.x * 3, 300)
 }
 
